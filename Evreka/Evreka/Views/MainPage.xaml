@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Evreka.Views.MainPage">
+    <ContentPage.Content>
+        <AbsoluteLayout>
+
+
+            
+            <Image Source="https://media3.giphy.com/media/JtBZm3Getg3dqxK0zP/giphy-downsized-large.gif"
+                   IsAnimationPlaying="True"
+                   Aspect="Fill"                  
+                   AbsoluteLayout.LayoutFlags="PositionProportional"
+                   AbsoluteLayout.LayoutBounds="0,1,415,610"/>
+
+            <Button BackgroundColor="Transparent"
+                    x:Name="btnBorsatakip"
+                    BorderColor="White"
+                    FontSize="25"
+                    TextColor="White"
+                    BorderWidth="5"                   
+                    CornerRadius="30"
+                    Text="DÖVİZ TAKİP"
+                    AbsoluteLayout.LayoutFlags="PositionProportional"
+                    AbsoluteLayout.LayoutBounds="0.5,0.2"
+                    HeightRequest="70"
+                    WidthRequest="250"
+                    Clicked="btnBorsatakip_Clicked"
+                    />
+
+            <Button BackgroundColor="Transparent"
+                    x:Name="btnBorsabilgi"
+                    BorderColor="White"
+                    FontSize="25"
+                    TextColor="White"
+                    BorderWidth="5"                   
+                    CornerRadius="30"
+                    Text="DÖVİZ BİLGİ"
+                    AbsoluteLayout.LayoutFlags="PositionProportional"
+                    AbsoluteLayout.LayoutBounds="0.5,0.4"
+                    HeightRequest="70"
+                    WidthRequest="250"
+                    Clicked="btnBorsabilgi_Clicked"/>
+
+
+            <Button BackgroundColor="Transparent"
+                    x:Name="btnHakkımızda"
+                    BorderColor="White"
+                    FontSize="25"
+                    TextColor="White"
+                    BorderWidth="5"                   
+                    CornerRadius="30"
+                    Text="Hakkımızda"
+                    AbsoluteLayout.LayoutFlags="PositionProportional"
+                    AbsoluteLayout.LayoutBounds="0.5,0.6"
+                    HeightRequest="70"
+                    WidthRequest="250"
+                    Clicked="btnHakkımızda_Clicked"/>
+
+
+        </AbsoluteLayout>
+        
+     
+  </ContentPage.Content>
+</ContentPage>

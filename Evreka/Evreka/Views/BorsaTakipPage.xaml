@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Evreka.Views.BorsaTakipPage"
+             BackgroundColor="Black">
+    <ContentPage.Content>
+      <StackLayout >
+            <Frame HorizontalOptions="CenterAndExpand"
+                   VerticalOptions="CenterAndExpand"
+                   BackgroundColor="Gray"
+                   HeightRequest="400"
+                   WidthRequest="300">
+                <StackLayout>
+                    <TimePicker/>
+                    <Frame HorizontalOptions="CenterAndExpand"
+                   VerticalOptions="CenterAndExpand"
+                           BackgroundColor="White"
+                   HeightRequest="300"
+                   WidthRequest="250">
+                        <AbsoluteLayout>
+                            <Label Text="EURO:"
+                                   TextColor="Black"
+                                   AbsoluteLayout.LayoutFlags="PositionProportional"
+                                   AbsoluteLayout.LayoutBounds="0.2,0.1"
+                                   FontSize="18"
+                                   />
+                            <Label Text="eurodeger"
+                                   TextColor="Black"
+                                   AbsoluteLayout.LayoutFlags="PositionProportional"
+                                   AbsoluteLayout.LayoutBounds="0.7,0.1"
+                                   FontSize="18"/>
+                            <Label Text="DOLAR:"
+                                   TextColor="Black"
+                                   AbsoluteLayout.LayoutFlags="PositionProportional"
+                                   AbsoluteLayout.LayoutBounds="0.2,0.25"
+                                   FontSize="18"/>
+                            <Label Text="dolardegeri" 
+                                   TextColor="Black"
+                                   AbsoluteLayout.LayoutFlags="PositionProportional"
+                                   AbsoluteLayout.LayoutBounds="0.7,0.25"
+                                   FontSize="18"/>
+                            <Label Text="STERLİN:"
+                                   TextColor="Black"
+                                   AbsoluteLayout.LayoutFlags="PositionProportional"
+                                   AbsoluteLayout.LayoutBounds="0.2,0.40"
+                                   FontSize="18"/>
+                            <Label Text="sterlindegeri" 
+                                   TextColor="Black"
+                                   AbsoluteLayout.LayoutFlags="PositionProportional"
+                                   AbsoluteLayout.LayoutBounds="0.8,0.40"
+                                   FontSize="18"/>
+                            <Label Text="RİYAL:"
+                                   TextColor="Black"
+                                   AbsoluteLayout.LayoutFlags="PositionProportional"
+                                   AbsoluteLayout.LayoutBounds="0.2,0.55"
+                                   FontSize="18"/>
+                            <Label Text="riyaldegeri" 
+                                   TextColor="Black"
+                                   AbsoluteLayout.LayoutFlags="PositionProportional"
+                                   AbsoluteLayout.LayoutBounds="0.7,0.55"
+                                   FontSize="18"/>
+                            <Label Text="KRON:"
+                                   TextColor="Black"
+                                   AbsoluteLayout.LayoutFlags="PositionProportional"
+                                   AbsoluteLayout.LayoutBounds="0.2,0.70"
+                                   FontSize="18"/>
+                            <Label Text="krondegeri" 
+                                   TextColor="Black"
+                                   AbsoluteLayout.LayoutFlags="PositionProportional"
+                                   AbsoluteLayout.LayoutBounds="0.7,0.70"
+                                   FontSize="18"/>
+                            <Label Text="YEN:"
+                                   TextColor="Black"
+                                   AbsoluteLayout.LayoutFlags="PositionProportional"
+                                   AbsoluteLayout.LayoutBounds="0.2,0.85"
+                                   FontSize="18"/>
+                            <Label Text="yendegeri" 
+                                   TextColor="Black"
+                                   AbsoluteLayout.LayoutFlags="PositionProportional"
+                                   AbsoluteLayout.LayoutBounds="0.7,0.85"
+                                   FontSize="18"/>
+                            <BoxView BackgroundColor="LightGray"
+                                     WidthRequest="5"
+                                     HeightRequest="310"
+                                     AbsoluteLayout.LayoutFlags="PositionProportional"
+                                     AbsoluteLayout.LayoutBounds="0.035,0.1"/>
+                            <BoxView  WidthRequest="260"
+                                     HeightRequest="5"
+                                      BackgroundColor="LightGray"
+                                      AbsoluteLayout.LayoutFlags="PositionProportional"
+                                      AbsoluteLayout.LayoutBounds="0,0.02"/>
+                            <BoxView BackgroundColor="LightGray"
+                                     WidthRequest="5"
+                                     HeightRequest="320"
+                                     AbsoluteLayout.LayoutFlags="PositionProportional"
+                                     AbsoluteLayout.LayoutBounds="1,0.5"/>
+                            <BoxView  WidthRequest="260"
+                                     HeightRequest="5"
+                                      BackgroundColor="LightGray"
+                                      AbsoluteLayout.LayoutFlags="PositionProportional"
+                                      AbsoluteLayout.LayoutBounds="0,1"/>
+                        </AbsoluteLayout>
+                    </Frame>
+                </StackLayout>
+            </Frame>
+      </StackLayout>
+  </ContentPage.Content>
+</ContentPage>

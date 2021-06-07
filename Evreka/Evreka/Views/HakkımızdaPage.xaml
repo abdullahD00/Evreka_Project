@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Evreka.Views.HakkımızdaPage"
+            xmlns:np="clr-namespace:Evreka.Views"
+            
+            >
+            
+            
+    
+  <!--Pages can be added as references or inline-->
+    <NavigationPage IconImageSource="info.jpg">
+        <x:Arguments>
+            <np:HakkımızdaPage1>
+                
+            </np:HakkımızdaPage1>
+        </x:Arguments>
+    </NavigationPage>
+
+    <NavigationPage IconImageSource="sunum.png">
+        <x:Arguments>
+            <np:HakkımızdaPage2>
+                
+            </np:HakkımızdaPage2>
+        </x:Arguments>
+    </NavigationPage>
+
+    <NavigationPage IconImageSource="topluluk.png">
+        <x:Arguments>
+            <np:HakkımızdaPage3>
+                
+            </np:HakkımızdaPage3>
+        </x:Arguments>
+    </NavigationPage>
+    
+</TabbedPage>

@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Evreka.Android", "Evreka\Evreka.Android\Evreka.Android.csproj", "{C1B7C681-8F72-4CF8-A8B3-BEEF91064F05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Evreka", "Evreka\Evreka\Evreka.csproj", "{088EC5A2-E062-4D09-B9BB-7DC1057BD35D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C1B7C681-8F72-4CF8-A8B3-BEEF91064F05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1B7C681-8F72-4CF8-A8B3-BEEF91064F05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1B7C681-8F72-4CF8-A8B3-BEEF91064F05}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{C1B7C681-8F72-4CF8-A8B3-BEEF91064F05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1B7C681-8F72-4CF8-A8B3-BEEF91064F05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1B7C681-8F72-4CF8-A8B3-BEEF91064F05}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{088EC5A2-E062-4D09-B9BB-7DC1057BD35D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{088EC5A2-E062-4D09-B9BB-7DC1057BD35D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{088EC5A2-E062-4D09-B9BB-7DC1057BD35D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{088EC5A2-E062-4D09-B9BB-7DC1057BD35D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{088EC5A2-E062-4D09-B9BB-7DC1057BD35D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{088EC5A2-E062-4D09-B9BB-7DC1057BD35D}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ED80295A-0AB0-4872-88AF-924852949165}
+	EndGlobalSection
+EndGlobal

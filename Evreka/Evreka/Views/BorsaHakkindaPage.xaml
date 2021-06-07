@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Evreka.Views.BorsaHakkindaPage">
+
+    <ContentPage IconImageSource="dovizicon.png">
+        <AbsoluteLayout BackgroundColor="LightSeaGreen" >
+            <Label Text="Döviz Nedir?"
+                   TextColor="Black"
+                   FontSize="20"
+                   AbsoluteLayout.LayoutFlags="PositionProportional"
+                   AbsoluteLayout.LayoutBounds="0.1,0.05"/>
+            <Label Text="   Borsa kelimesi sözlük anlamıyla tüccarların ve özellikle sarraflarla değerli kâğıt ve tahvil alışverişiyle uğraşanların alım satım ve değişim amacıyla devlet denetimi altında iş yaptıkları yere denir."
+                   TextColor="Black"
+                   FontSize="15"
+                   AbsoluteLayout.LayoutFlags="PositionProportional"
+                   AbsoluteLayout.LayoutBounds="0.08,0.16"
+                   HeightRequest="200"
+                   WidthRequest="200"
+                  />
+            <Image Source="doviznedir2.jpg"
+                   AbsoluteLayout.LayoutFlags="PositionProportional"
+                   AbsoluteLayout.LayoutBounds="0.99,0.09"
+                   Aspect="Fill"
+                   HeightRequest="200"
+                   WidthRequest="200"
+                   />
+            <Image Source="doviznedir.jpg"
+                   AbsoluteLayout.LayoutFlags="PositionProportional"
+                   AbsoluteLayout.LayoutBounds="0.01,0.87"
+                   Aspect="AspectFit"
+                   HeightRequest="220"
+                   WidthRequest="180"
+                   />
+                    
+            <Label Text="Kısaca belli kurallara göre, talep edilen mallar için organize edilmiş piyasaya verilen addır. Örneğin hisse senedi gibi değerli evrakların alınıp satıldığı yerlere menkul kıymet borsası denir. Yeni adıyla Borsa İstanbul(BİST) eski adıyla da İstanbul Menkul Kıymetler Borsası (İMKB) adından anlayacağımız üzere bir menkul kıymet borsasıdır."
+                   TextColor="Black"
+                   FontSize="15"
+                   AbsoluteLayout.LayoutFlags="PositionProportional"
+                   AbsoluteLayout.LayoutBounds="0.9,0.9"
+                   HeightRequest="220"
+                   WidthRequest="200"/>
+        </AbsoluteLayout>
+    </ContentPage>
+
+
+    <ContentPage IconImageSource="borsaicon1.jpg">
+        <ScrollView>
+        <AbsoluteLayout BackgroundColor="LightSeaGreen">
+            <Label Text="Borsanın Amacı Nedir?"
+                   TextColor="Black"
+                   FontSize="20"
+                   AbsoluteLayout.LayoutFlags="PositionProportional"
+                   AbsoluteLayout.LayoutBounds="0.1,0.05"/>
+            <Label Text="Kanun hükümleri ve ilgili mevzuat çerçevesinde, sermaye piyasası araçlarının, kambiyo ve kıymetli madenler ile kıymetli taşların ve Sermaye Piyasası Kurulunca uygun görülen diğer sözleGmelerin, belgelerin ve kıymetlerin serbest rekabet Gartları altında kolay ve güvenli bir şekilde, şeffaf, etkin, rekabetçi, dürüst ve istikrarlı bir ortamda alınıp satılabilmesini sağlamak."
+                   TextColor="Black"
+                   FontSize="15"
+                   AbsoluteLayout.LayoutFlags="PositionProportional"
+                   AbsoluteLayout.LayoutBounds="0.9,0.2"
+                   HeightRequest="255"
+                   WidthRequest="200"/>
+                <Image Source="borsaninamacinedir.jpg"
+                   AbsoluteLayout.LayoutFlags="PositionProportional"
+                   AbsoluteLayout.LayoutBounds="0.01,0.17"
+                   Aspect="Fill"
+                   HeightRequest="180"
+                   WidthRequest="180"
+                   />
+                <Image Source="borsaninamacinedir2.jpg"
+                   AbsoluteLayout.LayoutFlags="PositionProportional"
+                   AbsoluteLayout.LayoutBounds="0.97,0.98"
+                   Aspect="Fill"
+                   HeightRequest="180"
+                   WidthRequest="190"
+                   />
+                <Label Text="Bunlara ilişkin alım-satım emirlerini sonuçlandıracak şekilde bir araya getirmek veya bu emirlerin bir araya gelmesini kolaylaştırmak ve oluşan fiyatları tespit ve ilan etmek üzere piyasalar, pazarlar, platformlar ve sistemler ile teşkilatlanmış diğer pazar yerleri oluşturmak, kurmak ve geliştirmek, bunları ve başka borsaları veyahut borsaların piyasalarını yönetmek ve/veya işletmektir."
+                   TextColor="Black"
+                   FontSize="15"
+                   AbsoluteLayout.LayoutFlags="PositionProportional"
+                   AbsoluteLayout.LayoutBounds="0.01,1"
+                   HeightRequest="255"
+                   WidthRequest="200"/>
+        </AbsoluteLayout>
+        </ScrollView>
+    </ContentPage>
+
+</TabbedPage>
